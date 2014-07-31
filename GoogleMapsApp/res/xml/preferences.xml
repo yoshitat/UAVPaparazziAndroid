@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference 
+    	android:key="pref_ipaddress_1"
+    	android:title="@string/pref_ipaddress_1"
+    	android:defaultValue="0.0.0.0" />
+    
+    <EditTextPreference 
+    	android:key="pref_portTCP_1"
+    	android:title="@string/pref_portTCP_1"
+    	android:defaultValue="5010" />
+	
+    <EditTextPreference 
+    	android:key="pref_portUDP_1"
+    	android:title="@string/pref_portUDP_1"
+    	android:defaultValue="5005" />
+     
+    <EditTextPreference 
+    	android:key="pref_ipaddress_2"
+    	android:title="@string/pref_ipaddress_2"
+    	android:defaultValue="0.0.0.0" />
+    
+    <EditTextPreference 
+    	android:key="pref_portTCP_2"
+    	android:title="@string/pref_portTCP_2"
+    	android:defaultValue="0000" />
+	
+    <EditTextPreference 
+    	android:key="pref_portUDP_2"
+    	android:title="@string/pref_portUDP_2"
+    	android:defaultValue="0000" />
+</PreferenceScreen>
